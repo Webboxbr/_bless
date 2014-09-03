@@ -3,6 +3,8 @@ html, body, .bg-Home, .bg-Projetos, .bg-Localizacao, .bg-Lazer, .bg-Contato, .bg
 	width:100%;
 	/*min-height:100%;*/
 }
+h1 span {display: none;}
+
 .limites {
 	width:1200px;
 	margin-left:auto;
@@ -374,6 +376,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	color:#fff;
+	margin-top: -20px;
 }
 .bg-azul-5 p+p {
 	font-family: 'Open Sans', sans-serif;
