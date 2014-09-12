@@ -48,23 +48,37 @@
 		</header>
 		
 
+		<section id="conn">
+			<div class="limites">
+				<p><span>Saiba Mais!</span> Digite seus dados ou conecte-se via Facebook</p>
+				<form method="post" id="formNews" action="add.asp?tipo=1">
+					<input type="text" name="nome" placeholder="Seu nome"/>
+					<input type="email" name="email" placeholder="Seu E-mail"/>
+					<button type="submit"><img src="images/bot_ok.jpg"/></button>
+					<div><span>ou</span></div>
+					<a href="fb/fb.asp"><img src="images/bot_face.jpg" alt=""></a>									
+				</form>
+			</div>			
+		</section>
+
+
 		<div class="limites">
 			<section id="corpo-projeto">				
 
-				<p><b>Cadastre-se</b> e fique por dentro das últimas novidades do empreendimento.</p>
+				<p>Qual é o tamanho? E o valor? Informe seus dados e tire todas as dúvidas com o nosso atendimento personalizado.</p>
 				
 				<form method="post" id="formContato" action="enviaemail.asp">
-					<label for="nome">Seu nome: (obrigatório)</label>
-					<input type="text" name="nome" placeholder="Seu nome: (obrigatório)"/>
-					
-					<label for="tel">Seu telefone (obrigatório)</label>
-					<input type="tel" name="telefone" placeholder="Seu telefone (obrigatório)"/>
+					<label for="nome">Seu nome:(*)</label>
+					<input type="text" name="nome" placeholder="Seu nome:(*)"/>
 
-					<label for="email">Seu e-mail (obrigatório)</label>
-					<input type="email" name="email" placeholder="Seu e-mail (obrigatório)"/>
+					<label for="email">Seu e-mail:(*)</label>
+					<input type="email" name="email" placeholder="Seu e-mail:(*)"/>
 
-					<label for="msg">Tem alguma observação? (opcional)</label>
-					<textarea name="msg" placeholder="Tem alguma observação? (opcional)"></textarea>
+					<label for="tel">Seu telefone</label>
+					<input type="tel" name="telefone" placeholder="Seu telefone"/>
+
+					<label for="msg">Tem alguma observação?</label>
+					<textarea name="msg" placeholder="Tem alguma observação?"></textarea>
 
 					<button type="submit"><img src="images/bot_cadastrar.jpg"/></button>
 				</form>
