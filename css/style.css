@@ -1072,6 +1072,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 	margin:0;
 	padding:0;
 }
+
+
+
+
+#conn {
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#BDBDAE;
+}
+#formNews input {
+	width: 239px;
+	height: 20px;
+	border:solid 1px #E3005F;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+#formNews table {
+	margin-top: -10px;
+}
+#formNews span {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
 /*projetos*/
 #corpo-projeto {
 	padding-top:35px;

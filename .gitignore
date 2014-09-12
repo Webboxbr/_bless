@@ -2,6 +2,11 @@ $ cat .gitignore
 
 # Ignorar arquivos específicos
 enviaemail.asp
+add.asp
+ArticleSource.htm
+fb.asp
+fb_app.asp
+json2.asp
 
 # Use curingas como
 # *~
