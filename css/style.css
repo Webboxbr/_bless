@@ -1077,9 +1077,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 
 
 #conn {
-	padding-top:15px;
+	padding-top:3px;
 	padding-bottom:15px;
 	background-color:#BDBDAE;
+}
+#conn p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	color: #fff;
+}
+#conn p span {
+	color: #444444;
+	font-weight: bold;
 }
 #formNews input {
 	width: 239px;
