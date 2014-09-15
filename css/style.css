@@ -143,12 +143,12 @@ h3 {
 .tour {
 	color:#0081AA;
 	font-family: 'Wire One', sans-serif;
-	font-size:35px;
+	font-size:26px;
 }
 .virtual {
 	color:#19171A;
 	font-family: 'Wire One', sans-serif;
-	font-size:30px;
+	font-size:26px;
 }
 .ligue {
 	color:#191719;
@@ -437,14 +437,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 }
 .header .limites .menu-apoio span.tour-virtual {
 	background-image: url(../images/ico_tour_virtual.png);
+	background-repeat:no-repeat;
 	width:39px;
 	height:29px;
 	float:left;
-	margin-top: 18px;
+	margin-top: 15px;
 	margin-right: 7px;
 }
 .header .limites .menu-apoio span.chat-online {
 	background-image: url(../images/ico_chat_online.png);
+	background-repeat:no-repeat;
 	width:45px;
 	height:41px;
 	float:left;
@@ -454,6 +456,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 
 .header .limites .menu-apoio span.telefone {
 	background-image:url(../images/ico_telefone.png);
+	background-repeat:no-repeat;
 	width:38px;
 	height:46px;
 	float:left;
@@ -462,6 +465,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73bad0', end
 }
 .header .limites .menu-apoio span.duvidas {
 	background-image:url(../images/ico_duvidas.png);
+	background-repeat:no-repeat;
 	width:32px;
 	height:46px;
 	float:left;
