@@ -51,7 +51,10 @@
 
  	<title>Bless Fagundes Filho | Aptos 2 Dorms c/ lazer no bairro da Saúde (SP)</title>
 </head>
+
 <body>
+
+
 
 <div class="bg-Home">
 	<div itemscope itemtype="http://schema.org/LocalBusiness" class="bg-geral">
@@ -60,7 +63,7 @@
 			<div class="limites">
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html" class="link-1-ativo">Home</a></li>
+						<li><a href="default.asp" class="link-1-ativo">Home</a></li>
 						<li><a href="projeto.html" class="link-2">Projeto</a></li>
 						<li><a href="lazer.html" class="link-3">Lazer</a></li>
 						<li><a href="localizacao.html" class="link-4">Localização</a></li>
@@ -196,6 +199,7 @@
 
 
 
+
 <script>
 $(document).ready(function(){
   
@@ -214,10 +218,13 @@ $(document).ready(function(){
 	$(".group2").colorbox({rel:'group2', transition:"fade"});
 
 	//Example of preserving a JavaScript event for inline calls.
-		$("#click").click(function(){ 
-			$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-			return false;
-		});
+	$("#click").click(function(){ 
+		$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+		return false;
+	});
+
+
+	
 
 });
 
@@ -225,6 +232,21 @@ function hideIcon(self) {
     self.style.backgroundImage = 'none';
 }
 </script>
+
+
+<%
+id = request.querystring("id")
+if id="1" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+end if
+%>	
 
 
 
@@ -238,6 +260,11 @@ function hideIcon(self) {
   ga('send', 'pageview');
 
 </script>
+
+
+
+
+
  	
 </body>
 </html>
