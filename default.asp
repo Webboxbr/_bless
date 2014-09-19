@@ -238,7 +238,61 @@ function hideIcon(self) {
 id = request.querystring("id")
 if id="1" then
 %>
-	<a class="group cboxElement" id="janela-face" href="_msgFace.html" title="" style="display:none"></a>
+	<a class="group cboxElement" id="janela-face" href="_msgFace1.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="2" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace2.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="3" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace3.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="4" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace4.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="5" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace5.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="6" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace6.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="7" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace7.html" title="" style="display:none"></a>
 	<script>
 	$(document).ready(function(){
 		$('#janela-face').click();

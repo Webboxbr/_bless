@@ -1,3 +1,48 @@
+
+.bg1 {
+	background-image: url(../images/cadFace/1.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg2 {
+	background-image: url(../images/cadFace/2.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg3 {
+	background-image: url(../images/cadFace/3.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg4 {
+	background-image: url(../images/cadFace/4.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg5 {
+	background-image: url(../images/cadFace/5.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg6 {
+	background-image: url(../images/cadFace/6.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+.bg7 {
+	background-image: url(../images/cadFace/7.jpg);
+	width:771px;
+	height:484px;
+	background-repeat: no-repeat;	
+}
+
+
 .box-face {
 	width: 700px;
 	height: 300px;
@@ -17,8 +62,8 @@
 }
 .limites {
 	width: 600px;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 45px;
+	margin-top: 180px;
 }
 .left {
 	float: left;
@@ -27,5 +72,5 @@
 	clear: both;
 }
 button {margin-top: 3px;}
-span {margin-top: 30px;display: block;}
+span.ou {margin-top: 30px;display: block;color: #000!important;}
 img {display: block; margin-top: 3px;}
