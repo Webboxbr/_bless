@@ -26,7 +26,7 @@ window._fbq.push(['track', '6019913548525', {'value':'0.01','currency':'USD'}]);
 </head>
 <body>
 <%
-response.Redirect("default.asp?id=8") 	
+response.Redirect("contato.asp?id=8")
 %>
 </body>
 </html>

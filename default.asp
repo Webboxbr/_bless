@@ -1,8 +1,14 @@
+<%
+id = request.querystring("id")
+%>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
 <meta name="google-site-verification" content="bE8u1TgDW6ffYkx40TP9DjwP2LIKlyTUaLFFPmqjOGE" />
 
+<%
+if id="8" then
+%>
 <script type="text/javascript">
 	if ((navigator.userAgent.indexOf('iPhone') != -1)
 	|| (navigator.userAgent.indexOf('iPod') != -1)
@@ -29,9 +35,44 @@
 	|| (navigator.userAgent.indexOf('compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917') != -1)
 	|| (navigator.userAgent.indexOf('compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800') != -1)
 	) {
-	document.location = "mobile/contato.html";
+	document.location = "mobile/contato.asp?id=8";
 	}
 </script>
+<%
+else
+%>
+<script type="text/javascript">
+	if ((navigator.userAgent.indexOf('iPhone') != -1)
+	|| (navigator.userAgent.indexOf('iPod') != -1)
+	|| (navigator.userAgent.indexOf('pda') != -1)
+	|| (navigator.userAgent.indexOf('240x320') != -1)
+	|| (navigator.userAgent.indexOf('MIDP') != -1)
+	|| (navigator.userAgent.indexOf('CLDC') != -1)
+	|| (navigator.userAgent.indexOf('avant') != -1)
+	|| (navigator.userAgent.indexOf('nokia') != -1)
+	|| (navigator.userAgent.indexOf('moto') != -1)
+	|| (navigator.userAgent.indexOf('windows ce') != -1)
+	|| (navigator.userAgent.indexOf('hand') != -1)
+	|| (navigator.userAgent.indexOf('mobi') != -1)
+	|| (navigator.userAgent.indexOf('HTC') != -1)
+	|| (navigator.userAgent.indexOf('sony') != -1)
+	|| (navigator.userAgent.indexOf('panasonic') != -1)
+	|| (navigator.userAgent.indexOf('blackberry') != -1)
+	|| (navigator.userAgent.indexOf('voda') != -1)
+	|| (navigator.userAgent.indexOf('Linux') != -1)
+	|| (navigator.userAgent.indexOf('Nokia E71x') != -1)
+	|| (navigator.userAgent.indexOf('iPad') != -1)
+	|| (navigator.userAgent.indexOf('compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 820') != -1)
+	|| (navigator.userAgent.indexOf('compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; LG; GW910') != -1)
+	|| (navigator.userAgent.indexOf('compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917') != -1)
+	|| (navigator.userAgent.indexOf('compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; NOKIA; Lumia 800') != -1)
+	) {
+	document.location = "mobile/contato.asp";
+	}
+</script>
+<%
+end if
+%>
 	
 	
 
@@ -235,7 +276,6 @@ function hideIcon(self) {
 
 
 <%
-id = request.querystring("id")
 if id="1" then
 %>
 	<a class="group cboxElement" id="janela-face" href="_msgFace1.html" title="" style="display:none"></a>
@@ -293,6 +333,15 @@ elseif id="6" then
 elseif id="7" then
 %>
 	<a class="group cboxElement" id="janela-face" href="_msgFace7.html" title="" style="display:none"></a>
+	<script>
+	$(document).ready(function(){
+		$('#janela-face').click();
+	});
+	</script>
+<%
+elseif id="8" then
+%>
+	<a class="group cboxElement" id="janela-face" href="_msgFace8.html" title="" style="display:none"></a>
 	<script>
 	$(document).ready(function(){
 		$('#janela-face').click();

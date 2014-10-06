@@ -1,3 +1,6 @@
+<%
+id = request.querystring("id")
+%>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
@@ -9,7 +12,7 @@
     <meta name="keywords" content="Contato Bless, contato Archtech, contato Play, lançamento Bless, informações Bless">
 
 <meta property="fb:app_id" ontent="150911618356303" />
-<meta property="og:url" content="http://www.blessfagundesfilho.com.br/contato.html" /> 
+<meta property="og:url" content="http://www.blessfagundesfilho.com.br/contato.asp" /> 
 <meta property="og:title" content="Bless | Contato - Cadastre-se para mais informações" /> 
 <meta property="og:description" content="Para saber mais informações sobre o empreendimento Bless Fagundes Filho, da Archtech, cadastre-se no site ou ligue para (11) 3581.0000." /> 
 <meta property="og:image" content="http://www.blessfagundesfilho.com.br/images/facebook/Contato.jpg" />
@@ -47,12 +50,24 @@
 			</div>
 		</header>
 		
-
+		<%
+		if id="8" then
+		%>
+		<section id="conn">
+			<div class="limites">
+				<img src="../images/cadFace/8.jpg" style="max-width: 100%;">
+			</div>			
+		</section>
+		<%
+		else
+		%>
 		<section id="conn">
 			<div class="limites">
 				<p><span>Saiba Mais!</span> Digite seus dados ou conecte-se via Facebook</p>
 				<form method="post" id="formNews" action="add.asp?tipo=1">
+					<label>Nome</label>
 					<input type="text" name="nome" placeholder="Seu nome"/>
+					<label>Email</label>
 					<input type="email" name="email" placeholder="Seu E-mail"/>
 					<button type="submit"><img src="images/bot_ok.jpg"/></button>
 					<div><span>ou</span></div>
@@ -60,6 +75,9 @@
 				</form>
 			</div>			
 		</section>
+		<%
+		end if
+		%>
 
 
 		<div class="limites">
