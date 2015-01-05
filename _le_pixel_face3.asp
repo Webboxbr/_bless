@@ -6,29 +6,51 @@
  	<title></title>
 
 
-<!-- Google Code for Cadastros_home_medicos Conversion Page --> <script type="text/javascript">
+<!-- Facebook Conversion Code for Bless Cadastros HOme 3 -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6021992691725', {'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6021992691725&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+
+
+</head>
+<body>
+
+
+<!-- Google Code for Cadastro Origem ID 3 Conversion Page -->
+<script type="text/javascript">
 /* <![CDATA[ */
 var google_conversion_id = 969599119;
 var google_conversion_language = "en";
 var google_conversion_format = "2";
 var google_conversion_color = "ffffff";
-var google_conversion_label = "J8H7CKKQ8lYQj9GrzgM"; var google_remarketing_only = false;
+var google_conversion_label = "J3H4CN-rpVgQj9GrzgM";
+var google_remarketing_only = false;
 /* ]]> */
 </script>
-<script type="text/javascript"  
-src="//www.googleadservices.com/pagead/conversion.js">
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt=""  
-src="//www.googleadservices.com/pagead/conversion/969599119/?label=J8H7CKKQ8lYQj9GrzgM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/969599119/?label=J3H4CN-rpVgQj9GrzgM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
 
 
-</head>
-<body>
 <%
+'response.end()
 response.Redirect("default.asp?id=8") 	
 %>
 </body>
